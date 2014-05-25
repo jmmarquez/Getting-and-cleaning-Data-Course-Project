@@ -7,10 +7,10 @@ For that project we will use the data from the course website that represent dat
  * __https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip__ 
 
 A full description is available at the site where the data was obtained: 
-  * __http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones_ 
+  * __http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones__ 
 
 The R script called __run_analysis.R__ does the following: 
-* Download the zip (if it doesn't exists)
+* __Download the original zip__ (if it doesn't exists locally)
 * Unzip the file
 * Merges the training and the test sets to create one data set.
     * Read the variable's name from "features.txt"
@@ -23,6 +23,6 @@ The R script called __run_analysis.R__ does the following:
     * Read long description of activities from "activity_labels.txt"
 * Appropriately labels the data set with descriptive activity names. 
     * Factorize activity with levels and labels read from "activity_labels.txt"
-* Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
+* __Creates a second, independent tidy data set with the average of each variable for each activity and each subject__. 
     * Using library reshape2, melt dataframe with "sujeto"" and "activity"" as control elements and compute the mean for every variables for each "sujeto-activity" combination  
     * Save the new dataframe in "newTidyData", using as separator ";" 

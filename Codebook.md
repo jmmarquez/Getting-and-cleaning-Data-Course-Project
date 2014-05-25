@@ -3,7 +3,7 @@ CODEBOOK
 
 ### The data set created contains the average of the mean and the standard deviation of each measurement for each activity and each subject of the experiment "Human Activity recongnition using smartphones data set"
 
-The data set created have this 180 observatios (6 activities for each of the 30 volunteer in the experiment) with 68 variables (66 physical measurement + sujeto+activity) and the following structure:
+The data set created have 180 observatios (6 activities for each of the 30 volunteer in the experiment) with 68 variables (66 physical measurement + sujeto+activity) and the following structure:
 
    nrow| sujeto | activity         |tBodyAcc.mean...X|tBodyAcc.mean...Y| .... 
    -----|------ | ---------------- |-----------------|-----------------|------
